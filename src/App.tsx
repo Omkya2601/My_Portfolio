@@ -10,9 +10,11 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { education, experience, integrations, projects } from "./data/content";
 import { useSpotlight } from "./hooks/useSpotlight";
+import { useCleanHashLinks } from "./hooks/useCleanHashLinks";
 
 export default function App() {
   useSpotlight();
+  useCleanHashLinks();
   return (
     <div className="relative overflow-x-clip">
       <Background />

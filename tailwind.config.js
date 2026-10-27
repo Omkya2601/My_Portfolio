@@ -16,7 +16,7 @@ export default {
       fontFamily: {
         sans: ['"Outfit"', "system-ui", "sans-serif"],
       },
-      maxWidth: { column: "1120px" },
+      maxWidth: { column: "1280px" },
     },
   },
   plugins: [],

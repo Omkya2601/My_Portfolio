@@ -348,7 +348,4 @@ export const contact = {
 
 export const footer = {
   role: "Software Developer · Payments & DevOps",
-  copyright: `© 2026 ${profile.firstName} ${profile.lastName} · ${profile.location}`,
-  built: "Built with React, TypeScript and Tailwind CSS",
-  top: "Back to top ↑",
 };
